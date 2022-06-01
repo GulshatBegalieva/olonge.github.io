@@ -6,9 +6,12 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat',
+ sans-serif;
+  font-family: 'Poppins',
+ sans-serif;
+  font-family: 'Roboto',
+ sans-serif;
 }
 
 body {
@@ -76,7 +79,8 @@ body {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: calc(22px  + 2 * ((100vw - 320px) / 1120));
+  font-size: calc(22px
+  + 2 * ((100vw - 320px) / 1120));
   line-height: 36px;
   letter-spacing: 0.1px;
   color: #F7F7F7;
@@ -90,11 +94,13 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  font-size: calc(30px  + 28 * ((100vw - 320px) / 1120));
+  font-size: calc(30px
+  + 28 * ((100vw - 320px) / 1120));
   /* @include adaptiv-value("line-height", 58, 44, 0); */
   letter-spacing: 0.2px;
   color: #FFFFFF;
-  width: calc(280px  + 725 * ((100vw - 320px) / 1120));
+  width: calc(280px
+  + 725 * ((100vw - 320px) / 1120));
   margin-left: auto;
   margin-right: auto;
 }
@@ -107,8 +113,10 @@ body {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: calc(21px  + 3 * ((100vw - 320px) / 1120));
-  line-height: calc(35px  + 3 * ((100vw - 320px) / 1120));
+  font-size: calc(21px
+  + 3 * ((100vw - 320px) / 1120));
+  line-height: calc(35px
+  + 3 * ((100vw - 320px) / 1120));
   letter-spacing: 0.2px;
   color: #F7F7F7;
 }
@@ -180,7 +188,8 @@ body {
 
 .line {
   margin-top: 72px;
-  width: calc(260px  + 624 * ((100vw - 320px) / 1120));
+  width: calc(260px
+  + 624 * ((100vw - 320px) / 1120));
   border: 2px solid #E4E4E4;
   margin-left: auto;
   margin-right: auto;
@@ -223,7 +232,8 @@ body {
 }
 
 .product .item .right {
-  width: calc(300px  + 268 * ((100vw - 320px) / 1120));
+  width: calc(300px
+  + 268 * ((100vw - 320px) / 1120));
 }
 
 .product .item .right p.top {
@@ -275,8 +285,10 @@ body {
   background: linear-gradient(0deg, rgba(37, 43, 66, 0.4), rgba(37, 43, 66, 0.4)), url(../images/img/faq-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: calc(60px  + 70 * ((100vw - 320px) / 1120));
-  padding-bottom: calc(80px  + 50 * ((100vw - 320px) / 1120));
+  padding-top: calc(60px
+  + 70 * ((100vw - 320px) / 1120));
+  padding-bottom: calc(80px
+  + 50 * ((100vw - 320px) / 1120));
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -291,8 +303,10 @@ body {
 .faq .content p.top {
   font-family: 'Montserrat';
   font-weight: 700;
-  font-size: calc(38px  + 2 * ((100vw - 320px) / 1120));
-  line-height: calc(49px  + 8 * ((100vw - 320px) / 1120));
+  font-size: calc(38px
+  + 2 * ((100vw - 320px) / 1120));
+  line-height: calc(49px
+  + 8 * ((100vw - 320px) / 1120));
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
@@ -306,8 +320,10 @@ body {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: calc(18px  + 6 * ((100vw - 320px) / 1120));
-  line-height: calc(31px  + 7 * ((100vw - 320px) / 1120));
+  font-size: calc(18px
+  + 6 * ((100vw - 320px) / 1120));
+  line-height: calc(31px
+  + 7 * ((100vw - 320px) / 1120));
   text-align: center;
   letter-spacing: 0.2px;
   color: #FFFFFF;
@@ -368,7 +384,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: calc(295px  + 780 * ((100vw - 320px) / 1120));
+  width: calc(295px
+  + 780 * ((100vw - 320px) / 1120));
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -419,9 +436,12 @@ body {
   .home header {
     padding: 27px 40px 27px 90px;
     /* padding: 12px 40px 12px 20px; */
-    padding-top: calc(12px  + 15 * ((100vw - 320px) / 1120));
-    padding-bottom: calc(12px  + 15 * ((100vw - 320px) / 1120));
-    padding-left: calc(20px  + 70 * ((100vw - 320px) / 1120));
+    padding-top: calc(12px
+  + 15 * ((100vw - 320px) / 1120));
+    padding-bottom: calc(12px
+  + 15 * ((100vw - 320px) / 1120));
+    padding-left: calc(20px
+  + 70 * ((100vw - 320px) / 1120));
   }
   .home header .logo img {
     width: calc(110px + (206 - 110) * ((100vw - 320px) / (1440 - 320)));
@@ -434,40 +454,53 @@ body {
     width: calc(160px + (299 - 209) * ((100vw - 320px) / (1440 - 320)));
   }
   .product {
-    padding-bottom: calc(60px  + 103 * ((100vw - 320px) / 1120));
+    padding-bottom: calc(60px
+  + 103 * ((100vw - 320px) / 1120));
   }
   .product .h1 {
-    font-size: calc(40px  + 4 * ((100vw - 320px) / 1120));
+    font-size: calc(40px
+  + 4 * ((100vw - 320px) / 1120));
     line-height: 43px;
   }
   .product .item {
-    margin-top: calc(60px  + 86 * ((100vw - 320px) / 1120));
+    margin-top: calc(60px
+  + 86 * ((100vw - 320px) / 1120));
     -webkit-column-gap: calc(80px + (170.58 - 80) * ((100vw - 940px) / (1440 - 940)));
             column-gap: calc(80px + (170.58 - 80) * ((100vw - 940px) / (1440 - 940)));
   }
   .product .item .right p.top {
-    font-size: calc(17px  + 7 * ((100vw - 320px) / 1120));
+    font-size: calc(17px
+  + 7 * ((100vw - 320px) / 1120));
   }
   .product .item .right p.top:not(:last-child) {
-    margin-bottom: calc(7px  + 10 * ((100vw - 320px) / 1120));
+    margin-bottom: calc(7px
+  + 10 * ((100vw - 320px) / 1120));
   }
   .product .item .right p.txt {
-    font-size: calc(25px  + 15 * ((100vw - 320px) / 1120));
-    line-height: calc(38px  + 19 * ((100vw - 320px) / 1120));
+    font-size: calc(25px
+  + 15 * ((100vw - 320px) / 1120));
+    line-height: calc(38px
+  + 19 * ((100vw - 320px) / 1120));
   }
   .product .item .right p.txt:not(:last-child) {
-    margin-bottom: calc(17px  + 10 * ((100vw - 320px) / 1120));
+    margin-bottom: calc(17px
+  + 10 * ((100vw - 320px) / 1120));
   }
   .product .item .right p.bottom {
-    font-size: calc(16px  + 8 * ((100vw - 320px) / 1120));
-    line-height: calc(28px  + 10 * ((100vw - 320px) / 1120));
+    font-size: calc(16px
+  + 8 * ((100vw - 320px) / 1120));
+    line-height: calc(28px
+  + 10 * ((100vw - 320px) / 1120));
   }
   .faq .content {
-    width: calc(280px  + 580 * ((100vw - 320px) / 1120));
+    width: calc(280px
+  + 580 * ((100vw - 320px) / 1120));
   }
   .contact {
-    padding-top: calc(30px  + 24 * ((100vw - 320px) / 1120));
-    padding-bottom: calc(30px  + 38 * ((100vw - 320px) / 1120));
+    padding-top: calc(30px
+  + 24 * ((100vw - 320px) / 1120));
+    padding-bottom: calc(30px
+  + 38 * ((100vw - 320px) / 1120));
   }
   .contact .content {
     row-gap: 15px;
@@ -476,7 +509,8 @@ body {
     width: calc(150px + (246 - 150) * ((100vw - 320px) / (1440 - 320)));
   }
   .contact .content .social a {
-    margin-right: calc(5px  + 19 * ((100vw - 320px) / 1120));
+    margin-right: calc(5px
+  + 19 * ((100vw - 320px) / 1120));
   }
 }
 
@@ -518,7 +552,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    margin-top: 81px;
+    margin-top: 110px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -544,10 +578,12 @@ body {
     right: 0;
   }
   .home .content {
-    min-height: calc(720px  + -101 * ((100vw - 320px) / 1120));
+    min-height: calc(720px
+  + -101 * ((100vw - 320px) / 1120));
   }
   .home .phones {
-    margin-top: calc(-52px  + -56 * ((100vw - 320px) / 1120));
+    margin-top: calc(-52px
+  + -56 * ((100vw - 320px) / 1120));
   }
   .contact .content .social img {
     width: 80%;
